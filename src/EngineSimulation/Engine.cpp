@@ -13,7 +13,7 @@ using namespace Stands;
 int main(int argc, char* argv[])
 {
 	// default
-	string nameInputFile = "engine.cfg";
+	string nameInputFile = "../../../../../testfile/engine.cfg";
 
 	// checking args
 	switch (argc) {
