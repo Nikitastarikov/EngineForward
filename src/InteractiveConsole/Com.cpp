@@ -5,9 +5,9 @@ float com::dt;
 
 float com::input()
 {
-	cout << "time step: ";
-	cin >> dt;
-
+	//cout << "time step: ";
+	//cin >> dt;
+	dt = 1;
 	cout << "Max work time: ";
 	cin >> maxTime;
 

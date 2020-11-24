@@ -36,7 +36,7 @@ namespace Stands {
 		{
 			time += dt;
 			engine->Update(dt, Te);
-			engine->ShowParam();
+			//engine->ShowParam();
 			if (engine->T >= engine->To) {
 				break;
 			}

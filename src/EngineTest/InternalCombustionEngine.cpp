@@ -108,6 +108,15 @@ ICE::ICE(ifstream* config)
 			}
 		}
 	}
+
+	if (Ms.size() != Vs.size()) {
+		cout << "Error: Vs.size != Ms.size" << endl;
+		return;
+	} else if (I == 0) {
+		cout << "Error: I == 0" << endl;
+		return;
+	}
+
 	is_valid = true;
 }
 
